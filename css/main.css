@@ -1,13 +1,16 @@
 @import "normalize.css";
 
-
+body{
+    display: flex;
+}
 #main {
     background-image: url("../img/background.jpg");
-    height: 1200px;
+    width: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    height: 100vh;
 }
 
 .text {
@@ -20,5 +23,13 @@
   }
 
 
-
+#side{
+    background-color: rgb(51, 49, 49);
+    width: 20%;
+    border-right: 4px solid rgb(15, 13, 13);
+}
   
+#side img{
+     width: 80%;
+     height: 400px;
+}
