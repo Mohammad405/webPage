@@ -74,7 +74,8 @@ body{
     font-size: 1em;
 }
 
-a {
+a ,
+button {
     cursor: pointer;
 }
 
