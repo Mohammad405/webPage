@@ -74,6 +74,10 @@ body{
     font-size: 1em;
 }
 
+a {
+    cursor: pointer;
+}
+
 #nav ul {
     list-style: none;
     margin-left: -20px;
@@ -103,4 +107,17 @@ body{
 
 #nav li a:hover {
     color: white;
+}
+
+
+#projects {
+    width:90%;
+   background-color: rgb(255, 255, 255,.8);
+   text-align: center;
+   border-radius: 10px;
+}
+
+#projects p {
+    font-family: cursive;
+    font-size: 1.2em;
 }
