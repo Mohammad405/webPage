@@ -91,9 +91,16 @@ body{
     border: 5px solid black;
 }
 
-#nav li:hover{
-   
-    color: white;
+#nav li:hover {
     border: 5px solid white;
     background-color: black;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav li a:hover {
+    color: white;
 }
