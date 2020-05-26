@@ -111,7 +111,8 @@ a {
 
 
 #projects {
-    width:90%;
+   display: none;
+   width:90%;
    background-color: rgb(255, 255, 255,.8);
    text-align: center;
    border-radius: 10px;
