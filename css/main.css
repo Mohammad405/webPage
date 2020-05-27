@@ -101,7 +101,8 @@ button {
     background-color: black;
 }
 
-#nav li a {
+#nav li a,
+#close a {
     text-decoration: none;
     color: black;
 }
