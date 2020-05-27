@@ -1,9 +1,19 @@
+//select the nav bars
+
 const first = document.querySelector('#one');
-const projects = document.querySelector('#projects');
+const second = document.querySelector('#two');
+
+// select exit symbels
+
 const exit = document.querySelector('.close');
 const ex = document.querySelector('.exit'); 
+
+//select contents 
+
+const projects = document.querySelector('#projects');
 const cont = document.querySelector('#contact');
-const second = document.querySelector('#two');
+
+
 
 
 first.addEventListener('click', () => {
