@@ -124,3 +124,11 @@ button {
     font-family: cursive;
     font-size: 1.2em;
 }
+
+#close {
+    background-color: rgb(15, 13, 13,.5);
+    width: 10%;
+    height: 15%;
+    border-radius:50%;
+    float: right;
+}
