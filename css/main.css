@@ -76,7 +76,8 @@ body{
 
 a ,
 button,
-#close img {
+#close img,
+#nav li {
     cursor: pointer;
 }
 
@@ -100,16 +101,9 @@ button,
 #nav li:hover {
     border: 5px solid white;
     background-color: black;
+    color:white;
 }
 
-#nav li a {
-    text-decoration: none;
-    color: black;
-}
-
-#nav li a:hover {
-    color: white;
-}
 
 
 #projects {
