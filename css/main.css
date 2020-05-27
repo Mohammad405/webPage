@@ -67,7 +67,8 @@ body{
 }
 
 a ,
-#close img,
+.close img,
+.exit img,
 #nav li {
     cursor: pointer;
 }
@@ -97,8 +98,9 @@ a ,
 
 
 
-#projects {
-   display: none;
+#projects,
+#contact {
+    display: none;
    width:90%;
    background-color: rgb(255, 255, 255,.8);
    text-align: center;
@@ -110,6 +112,7 @@ a ,
     font-size: 1.2em;
 }
 
-#close {
+.close,
+.exit {
     float: right;
 }
