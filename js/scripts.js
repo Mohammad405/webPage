@@ -14,6 +14,10 @@ const projects = document.querySelector('#projects');
 const cont = document.querySelector('#contact');
 
 
+// select personal img
+
+const img = document.querySelector('.pg > img');
+
 
 
 first.addEventListener('click', () => {

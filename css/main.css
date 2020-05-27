@@ -69,7 +69,8 @@ body{
 a ,
 .close img,
 .exit img,
-#nav li {
+#nav li,
+.pg img{
     cursor: pointer;
 }
 
