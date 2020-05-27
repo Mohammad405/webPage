@@ -107,7 +107,8 @@ a ,
    border-radius: 10px;
 }
 
-#projects p {
+#projects p,
+#contact p {
     font-family: cursive;
     font-size: 1.2em;
 }
