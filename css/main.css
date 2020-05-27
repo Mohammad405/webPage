@@ -75,7 +75,8 @@ body{
 }
 
 a ,
-button {
+button,
+#close img {
     cursor: pointer;
 }
 
@@ -101,8 +102,7 @@ button {
     background-color: black;
 }
 
-#nav li a,
-#close a {
+#nav li a {
     text-decoration: none;
     color: black;
 }
@@ -126,9 +126,5 @@ button {
 }
 
 #close {
-    background-color: rgb(15, 13, 13,.5);
-    width: 10%;
-    height: 15%;
-    border-radius:50%;
     float: right;
 }
