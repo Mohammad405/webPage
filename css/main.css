@@ -124,3 +124,20 @@ a ,
         height: 120vh;
     }
 }
+
+@media (max-width:900px){
+    #main{
+        width: 60%;
+    }
+
+    #main h1{
+        font-size: 5em;
+    }
+
+    #side{
+        width: 40%;
+    }
+}
+
+
+
