@@ -118,3 +118,9 @@ a ,
 .exit {
     float: right;
 }
+
+@media (max-width:1200px){
+    #main{
+        height: 120vh;
+    }
+}
