@@ -18,7 +18,7 @@ const cont = document.querySelector('#contact');
 
 const img = document.querySelector('.pg > img');
 
-
+const hidden = document.querySelector('.hidden');
 
 first.addEventListener('click', () => {
     projects.style.display = 'block';
@@ -41,5 +41,16 @@ second.addEventListener('click', () => {
 ex.addEventListener('click', () => {
     cont.style.display = 'none';
     second.style.display = 'block';
+});
+
+
+img.addEventListener('click', (e) => {
+    e.target.style.display = 'none';
+    hidden.style.display = 'block';
+});
+
+hidden.addEventListener('click', (e) => {
+    e.target.style.display = 'none';
+    img.style.display = 'block';
 });
 
