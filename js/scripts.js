@@ -3,6 +3,10 @@
 const first = document.querySelector('#one');
 const second = document.querySelector('#two');
 
+// select #main
+
+const main = document.querySelector('#main');
+
 // select exit symbels
 
 const exit = document.querySelector('.close');
@@ -36,11 +40,13 @@ exit.addEventListener('click', () => {
 second.addEventListener('click', () => {
     cont.style.display = 'block';
     second.style.display = 'none';
+    main.style.height = '140vh';
 });
 
 ex.addEventListener('click', () => {
     cont.style.display = 'none';
     second.style.display = 'block';
+    main.style.height = '100vh';
 });
 
 
