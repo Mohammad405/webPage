@@ -122,6 +122,8 @@ a ,
    background-color: rgb(255, 255, 255,.8);
    text-align: center;
    border-radius: 10px;
+   box-shadow:inset 2px 2px gray,
+              inset -2px -2px  gray;
 }
 
 #projects p,
