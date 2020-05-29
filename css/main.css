@@ -77,7 +77,7 @@ body{
 a ,
 .close img,
 .exit img,
-#nav li,
+#nav li
 {
     cursor: pointer;
 }
